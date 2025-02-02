@@ -12,7 +12,7 @@ body{
     align-items: center; 
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(#ECEFFE, #CED6FB);
+    background: linear-gradient(#000000, #132059);
 }
 
 .card-wrapper{
@@ -38,12 +38,12 @@ body{
 .card-list .card-item .card-link{
     user-select: none;
     display: block;
-    background: #fff;
+    background: linear-gradient(145deg,  #859e22, #132059);
     padding: 18px;
     border-radius: 12px;
     text-decoration: none;
     border: 2px solid transparent;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 10px rgb(13, 15, 55);
 }
 
 .card-list .card-item .card-link:active{
@@ -66,8 +66,12 @@ body{
     list-style: none;
 }
 
+.card-list .card-link h2{
+    color: yellow;
+}
+
 .card-list .card-link .badge{
-    color: #5372F0;
+    color: #4c4d4e;
     background: #DDE4FF;
     margin: 16px 0 18px;
     padding: 8px 16px;
@@ -113,11 +117,12 @@ body{
     border: 2px solid #5372F0;
     transform: rotate(-45deg);
     transition: 0.4s ease;
+    background-color: yellow;
 }
 
 .card-list .card-link:hover .card-button{
     color: #fff;
-    background-color: #5372F0;
+    background-color: #3a3d48;
 
 }
 
