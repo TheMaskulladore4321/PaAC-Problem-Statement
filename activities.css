@@ -7,6 +7,16 @@
     box-sizing: border-box;
 }
 
+.separator {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #66fcf1, transparent);
+    margin: 30px auto;
+    position: absolute;
+    bottom: 90vh;
+    z-index: 2;
+}
+
 body{
     display: flex;
     align-items: center; 
