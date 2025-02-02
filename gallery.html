@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            background-color: #0b0c10;
+            color: #c5c6c7;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: #66fcf1;
+        }
+        .description {
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .year-section {
+            margin-top: 40px;
+            position: relative;
+            padding-top: 20px;
+        }
+        .year-section h2 {
+            color: #45a29e;
+        }
+        .separator {
+            width: 80%;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #66fcf1, transparent);
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Astronomy Club Gallery</h1>
+        <p class="description">Explore the wonders of the universe through our collection of breathtaking celestial images.</p>
+        
+        <div class="year-section">
+            <h2>2025</h2>
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1474073705359-5da2a8270c64?w=400&h=300&fit=crop" alt="Galaxy">
+                <img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=300&fit=crop" alt="Nebula">
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="year-section">
+            <h2>2024</h2>
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1462332420958-a05d1e002413?w=400&h=300&fit=crop" alt="Planet">
+                <img src="https://images.unsplash.com/photo-1447433865958-f402f562b843?w=400&h=300&fit=crop" alt="Star">
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="year-section">
+            <h2>2023</h2>
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1517976487492-5750f3195933?w=400&h=300&fit=crop" alt="Astronomy">
+                <img src="image.png" alt="Moon">
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="year-section">
+            <h2>2022</h2>
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=400&h=300&fit=crop" alt="Telescope">
+                <img src="image copy.png" alt="Cosmos">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
